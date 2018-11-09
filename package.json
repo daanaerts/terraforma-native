@@ -8,7 +8,7 @@
     "ios": "expo start --ios",
     "eject": "expo eject",
     "test": "jest",
-    "ci": "jest -- --coverage --ci --testResultsProcessor=\"jest-junit\""
+    "ci": "jest --coverage --ci --testResultsProcessor=\"jest-junit\""
   },
   "dependencies": {
     "expo": "^31.0.2",
@@ -56,7 +56,6 @@
     "reporters": [
       "default",
       "jest-junit"
-    ],
-    "testResultsProcessor": "jest-junit"
+    ]
   }
 }
